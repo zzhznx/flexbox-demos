@@ -1,0 +1,21 @@
+.box {
+    display: -webkit-flex;
+    display: flex;
+    width: 600px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: #eee;
+}
+
+.box li {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+.box li:nth-child(3) {
+    -webkit-flex-basis: 600px;
+    flex-basis: 600px;
+}

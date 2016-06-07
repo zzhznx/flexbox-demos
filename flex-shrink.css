@@ -1,0 +1,26 @@
+#flex {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#flex li {
+    width: 200px;
+}
+
+#flex li:nth-child(1) {
+    background: #888;
+}
+
+#flex li:nth-child(2) {
+    background: #ccc;
+}
+
+#flex li:nth-child(3) {
+    background-color: #aaa;
+    -webkit-flex-shrink: 3;
+    flex-shrink: 3;
+}

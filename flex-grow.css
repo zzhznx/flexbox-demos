@@ -1,0 +1,26 @@
+.box {
+    display: -webkit-flex;
+    display: flex;
+    width: 700px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: #eee;
+}
+
+.box li {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+#box li:nth-child(2) {
+    -webkit-flex-grow: 4;
+    flex-grow: 4;
+}
+
+#box li:nth-child(3) {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}

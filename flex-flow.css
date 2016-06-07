@@ -1,0 +1,31 @@
+.box {
+    display: -webkit-flex;
+    display: flex;
+    width: 220px;
+    margin: 0;
+    padding: 10px;
+    background-color: #eee;
+    list-style: none;
+}
+.box li {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+#box {
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+#box2 {
+    -webkit-flex-flow: row wrap-reverse;
+    flex-flow: row wrap-reverse;
+}
+
+#box3 {
+    height: 220px;
+    -webkit-flex-flow: column wrap-reverse;
+    flex-flow: column wrap-reverse;
+}
